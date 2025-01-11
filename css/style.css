@@ -306,3 +306,54 @@ select {
 #green {
   background-color: #c6e4d6;
 }
+.other-ammount input {
+  width: 82%;
+  display: block;
+  padding: 20px 40px;
+  margin: 32px auto;
+  text-align: center;
+  border: none;
+}
+.other-ammount button {
+  display: block;
+  margin: auto;
+}
+/* Footer section  */
+.subcribe-section {
+  background-color: #c6e4d6;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border: 1px solid transparent;
+  padding: 80px 100px 0px 80px;
+}
+.subcribe-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.subcribe-section p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px auto;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+#emaid-address {
+  width: 600px;
+  padding: 18px 40px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+}
+#btn-sub {
+  width: 150px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #006a50;
+  color: #ffffff;
+  border-left: none;
+  border: 1px solid transparent;
+}
