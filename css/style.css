@@ -14,6 +14,18 @@
   max-width: 80%;
   margin: auto;
 }
+
+/* color  */
+.first-color {
+  color: #0e0e0e;
+}
+.second-color {
+  color: rgba(14, 14, 14, 0.7);
+}
+
+body {
+  background-color: #f5f5f5;
+}
 /* primary button  */
 .btn-primary {
   background-color: #006a50;
@@ -62,6 +74,7 @@
   align-items: center;
   padding: 0px 60px;
   gap: 64px;
+  margin-bottom: 80px;
 }
 .banner-left p {
   font-size: 24px;
@@ -74,5 +87,52 @@
   color: #0e0e0e;
   margin: 16px 0px 41px 0px;
 }
-.btn-explore {
+
+/* Pillars of "Bangladesh 2.0" */
+.pillars-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+.pillars-box-wraper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.pillars-box {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid transparent;
+}
+
+.pillars-box h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0e;
+  padding: 24px 0px 12px 0px;
+}
+
+/* vision future section  */
+.vision-future {
+  margin: 80px 0px;
+}
+.vision-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.vision-title p {
+  margin: 24px 0px 32px 0px;
+}
+.vision-box-1 p {
+  margin-bottom: 24px;
+}
+.btn-box {
+  background-color: #5490f5;
+  color: #ffffff;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 400;
 }
