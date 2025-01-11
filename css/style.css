@@ -32,11 +32,13 @@ body {
   color: #ffffff;
   padding: 13px 26px;
   border-radius: 8px;
+  cursor: pointer;
   border: 1px solid transparent;
 }
 .btn-primary:hover {
   background-color: #ffffff;
   color: #006a50;
+  cursor: pointer;
   border: 1px solid #006a50;
 }
 
@@ -56,6 +58,7 @@ body {
   border: 1px solid #006a50;
   background: none;
   color: #006a50;
+  cursor: pointer;
 }
 .btn-signin:hover {
   background-color: #006a50;
@@ -126,13 +129,58 @@ body {
 .vision-title p {
   margin: 24px 0px 32px 0px;
 }
-.vision-box-1 p {
+.vision-box p {
   margin-bottom: 24px;
 }
+/* box button style  */
 .btn-box {
-  background-color: #5490f5;
   color: #ffffff;
   padding: 11px 20px;
   font-size: 16px;
   font-weight: 400;
+  cursor: pointer;
+}
+.btn-1 {
+  background-color: #5490f5;
+}
+.btn-2 {
+  background-color: #09a15c;
+}
+.btn-3 {
+  background-color: #ffc239;
+}
+.box-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.box-2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+.box-3 {
+  background-color: rgba(247, 235, 207, 1);
+}
+
+/* Chief Adviser information   */
+.chief-intro {
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 48px 24px;
+  background: url(/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 2% 12%;
+  margin-bottom: 80px;
+}
+.chief-bio {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.chief-intro h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.chief-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 4px;
 }
