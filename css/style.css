@@ -162,7 +162,7 @@ body {
 /* Chief Adviser information   */
 .chief-intro {
   border-radius: 16px;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
   border: 1px solid rgba(14, 14, 14, 0.15);
   padding: 48px 24px;
   background: url(/assets/quote-bg.png);
@@ -183,4 +183,126 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin-top: 4px;
+}
+/* Opinion section table  */
+.opinion-matters h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.opinion-table {
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  padding: 48px 24px;
+  margin-bottom: 80px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-weight: 600;
+}
+td {
+  padding: 10px 15px;
+}
+th {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 20px;
+  text-align: left;
+  background-color: #c6e4d6;
+  border: none;
+}
+
+select {
+  text-align: center;
+  padding: 10px 14px;
+  margin: 10px 0px 10px 65px;
+  font-size: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 5px;
+  background-color: #c6e4d6;
+  /* appearance: none; */
+}
+
+/* Recent news ara  */
+.satellite-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  margin: 40px auto;
+}
+.satellite-block2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  margin: 40px auto;
+}
+.satellite-block img {
+  width: 408px;
+  border-radius: 24px;
+  border: none;
+}
+.satellite-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.satellite-title img {
+  width: 140px;
+  display: block;
+  margin: 12px 0px;
+}
+.satellite-title p {
+  margin: 12px 0px 32px 0px;
+}
+/* Donate section  */
+.donate-title-wrapper {
+  margin: 80px 0px;
+}
+.donate-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.donate-title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.donate-title p {
+  font-size: 16;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.donate-ammount-digit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.donate-ammount-digit h3 {
+  background-color: #ffffff;
+  font-size: 40px;
+  padding: 40px;
+  font-weight: bold;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+/* For active class */
+/* .donate-ammount-digit h3:active {
+  background-color: #c6e4d6;
+} */
+#green {
+  background-color: #c6e4d6;
 }
